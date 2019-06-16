@@ -8,7 +8,7 @@ Do not delete this comment block. Respect others' work!
 
 // Converted from thiscall void CAutoPilot::ModifySpeed(float speed) 0x4137B0 
 void CAutoPilot::ModifySpeed(float speed) {
-    plugin::CallMethod<0x4137B0, CAutoPilot *, float>(this, speed);
+    plugin::CallMethod<0x4137B1, CAutoPilot *, float>(this, speed);
 }
 
 // Converted from thiscall void CAutoPilot::RemoveOnePathNode(void) 0x413A00 
