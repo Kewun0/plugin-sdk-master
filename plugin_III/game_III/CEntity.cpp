@@ -90,7 +90,7 @@ void CEntity::FlagToDestroyWhenNextProcessed() {
 
 // Converted from cdecl void CEntity::AddSteamsFromGround(CVector *) 0x4B3FE0
 void CEntity::AddSteamsFromGround(CVector* arg0) {
-    plugin::Call<0x4B3FE0, CVector*>(arg0);
+    plugin::Call<0x4B40D0, CVector*>(arg0);
 }
 
 // Converted from thiscall void CEntity::AttachToRwObject(RwObject *rwObject) 0x473F10
