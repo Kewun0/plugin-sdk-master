@@ -93,12 +93,12 @@ void CCheat::RainyWeatherCheat() {
 
 // Converted from cdecl void CCheat::FoggyWeatherCheat(void) 0x4915B0 
 void CCheat::FoggyWeatherCheat() {
-    plugin::Call<0x4915B0>();
+    plugin::Call<0x491670>();
 }
 
 // Converted from cdecl void CCheat::FastWeatherCheat(void) 0x4915E0 
 void CCheat::FastWeatherCheat() {
-    plugin::Call<0x4915E0>();
+    plugin::Call<0x4916A0>();
 }
 
 // Converted from cdecl void CCheat::OnlyRenderWheelsCheat(void) 0x491610 
