@@ -13,7 +13,7 @@ CAudioHydrant::CAudioHydrant() {
 
 // Converted from cdecl bool CAudioHydrant::Add(CParticleObject *object) 0x4BC330
 bool CAudioHydrant::Add(CParticleObject* object) {
-    return plugin::CallAndReturn<bool, 0x4BC330, CParticleObject*>(object);
+    return plugin::CallAndReturn<bool, 0x4BC331, CParticleObject*>(object);
 }
 
 // Converted from cdecl void CAudioHydrant::Remove(CParticleObject *object) 0x4BC390
