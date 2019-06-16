@@ -90,12 +90,12 @@ void CFont::SetBackgroundColor(CRGBA color) {
 
 // Converted from cdecl void CFont::SetBackgroundOff(void) 0x501CF0 
 void CFont::SetBackgroundOff() {
-    plugin::Call<0x501CF0>();
+    plugin::Call<0x501DD0>();
 }
 
 // Converted from cdecl void CFont::SetBackgroundOn(void) 0x501CE0 
 void CFont::SetBackgroundOn() {
-    plugin::Call<0x501CE0>();
+    plugin::Call<0x501DC0>();
 }
 
 // Converted from cdecl void CFont::SetCentreOff(void) 0x501CB0 
