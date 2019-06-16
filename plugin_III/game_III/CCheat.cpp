@@ -113,10 +113,10 @@ void CCheat::ChittyChittyBangBangCheat() {
 
 // Converted from cdecl void CCheat::StrongGripCheat(void) 0x491670 
 void CCheat::StrongGripCheat() {
-    plugin::Call<0x491670>();
+    plugin::Call<0x491730>();
 }
 
 // Converted from cdecl void CCheat::NastyLimbsCheat(void) 0x4916A0 
 void CCheat::NastyLimbsCheat() {
-    plugin::Call<0x4916A0>();
+    plugin::Call<0x491760>();
 }
