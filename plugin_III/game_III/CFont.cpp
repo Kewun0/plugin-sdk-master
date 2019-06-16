@@ -25,7 +25,7 @@ wchar_t* CFont::GetNextSpace(const wchar_t* str) {
 
 // Converted from cdecl int CFont::GetNumberLines(float x,float y,wchar_t *text) 0x501260
 int CFont::GetNumberLines(float x, float y, const wchar_t* text) {
-    return plugin::CallAndReturn<int, 0x501260, float, float, const wchar_t*>(x, y, text);
+    return plugin::CallAndReturn<int, 0x501340, float, float, const wchar_t*>(x, y, text);
 }
 
 // Converted from cdecl float CFont::GetStringWidth(wchar_t *str,bool sentence) 0x5018A0
