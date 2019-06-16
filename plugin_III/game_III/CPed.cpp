@@ -58,7 +58,7 @@ char CPed::ClearLookFlag() {
 
 void CPed::GiveWeapon(eWeaponType weaponType, unsigned int ammo)
 {
-    ((void(__thiscall *)(CPed*, eWeaponType, unsigned int))0x4CF9B0)(this, weaponType, ammo);
+    ((void(__thiscall *)(CPed*, eWeaponType, unsigned int))0x4CFA50)(this, weaponType, ammo);
 }
 
 void CPed::SetCurrentWeapon(int slot) {
