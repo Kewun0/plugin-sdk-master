@@ -103,7 +103,7 @@ void CCheat::FastWeatherCheat() {
 
 // Converted from cdecl void CCheat::OnlyRenderWheelsCheat(void) 0x491610 
 void CCheat::OnlyRenderWheelsCheat() {
-    plugin::Call<0x491610>();
+    plugin::Call<0x4916D0>();
 }
 
 // Converted from cdecl void CCheat::ChittyChittyBangBangCheat(void) 0x491640 
