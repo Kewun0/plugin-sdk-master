@@ -42,7 +42,7 @@ void CClouds::Shutdown() {
 
 // Converted from cdecl void CClouds::Update(void) 0x4F6CE0 
 void CClouds::Update() {
-    plugin::Call<0x4F6CE0>();
+    plugin::Call<0x4F6DC0>();
 }
 
 // Converted from cdecl bool UseDarkBackground(void) 0x4F7ED0 
