@@ -48,7 +48,7 @@ void CAutomobile::Fix() {
 
 // Converted from thiscall bool CAutomobile::GetAllWheelsOffGround(void) 0x53BC40 
 bool CAutomobile::GetAllWheelsOffGround() {
-    return plugin::CallMethodAndReturn<bool, 0x53BC40, CAutomobile *>(this);
+    return plugin::CallMethodAndReturn<bool, 0x53BE80, CAutomobile *>(this);
 }
 
 // Converted from thiscall bool CAutomobile::HasCarStoppedBecauseOfLight(void) 0x42E220 
