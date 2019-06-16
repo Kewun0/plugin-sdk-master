@@ -20,7 +20,7 @@ CExplosion::CExplosion() {
 
 // Converted from cdecl uchar CExplosion::GetExplosionActiveCounter(uchar index) 0x559140
 unsigned char CExplosion::GetExplosionActiveCounter(unsigned char index) {
-    return plugin::CallAndReturn<unsigned char, 0x559140, unsigned char>(index);
+    return plugin::CallAndReturn<unsigned char, 0x559270, unsigned char>(index);
 }
 
 // Converted from cdecl CVector* CExplosion::GetExplosionPosition(uchar index) 0x5591A0
