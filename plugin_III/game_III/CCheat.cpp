@@ -68,12 +68,12 @@ void CCheat::ArmourCheat() {
 
 // Converted from cdecl void CCheat::WantedLevelUpCheat(void) 0x491490 
 void CCheat::WantedLevelUpCheat() {
-    plugin::Call<0x491490>();
+    plugin::Call<0x491550>();
 }
 
 // Converted from cdecl void CCheat::WantedLevelDownCheat(void) 0x4914F0 
 void CCheat::WantedLevelDownCheat() {
-    plugin::Call<0x4914F0>();
+    plugin::Call<0x4915B0>();
 }
 
 // Converted from cdecl void CCheat::SunnyWeatherCheat(void) 0x491520 
