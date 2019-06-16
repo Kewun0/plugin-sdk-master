@@ -84,12 +84,12 @@ void CPools::LoadObjectPool(unsigned char* buffer, unsigned int size) {
 
 // Converted from cdecl void CPools::SavePedPool(uchar *buffer,uint *outSize) 0x4A29B0
 void CPools::SavePedPool(unsigned char* buffer, unsigned int* outSize) {
-    plugin::Call<0x4A29B0, unsigned char*, unsigned int*>(buffer, outSize);
+    plugin::Call<0x4A2AA0, unsigned char*, unsigned int*>(buffer, outSize);
 }
 
 // Converted from cdecl void CPools::LoadPedPool(uchar *buffer,uint size) 0x4A2B50
 void CPools::LoadPedPool(unsigned char* buffer, unsigned int size) {
-    plugin::Call<0x4A2B50, unsigned char*, unsigned int>(buffer, size);
+    plugin::Call<0x4A2C40, unsigned char*, unsigned int>(buffer, size);
 }
 
 // Converted from cdecl void CPools::MakeSureSlotInObjectPoolIsEmpty(int slot) 0x4A2DB0
