@@ -30,7 +30,7 @@ int CFont::GetNumberLines(float x, float y, const wchar_t* text) {
 
 // Converted from cdecl float CFont::GetStringWidth(wchar_t *str,bool sentence) 0x5018A0
 float CFont::GetStringWidth(const wchar_t* str, bool sentence) {
-    return plugin::CallAndReturn<float, 0x5018A0, const wchar_t*, bool>(str, sentence);
+    return plugin::CallAndReturn<float, 0x501980, const wchar_t*, bool>(str, sentence);
 }
 
 // Converted from cdecl CRect* CFont::GetTextRect(CRect *rect_out,float x,float y,wchar_t *text) 0x5013B0
