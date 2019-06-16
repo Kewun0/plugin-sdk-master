@@ -17,7 +17,7 @@ RwTexture*& gpCloudTex = *(RwTexture**)0x9411C0;
 
 // Converted from cdecl void CClouds::Init(void) 0x4F6C10 
 void CClouds::Init() {
-    plugin::Call<0x4F6C10>();
+    plugin::Call<0x4F6CC0>();
 }
 
 // Converted from cdecl void CClouds::Render(void) 0x4F6D90 
