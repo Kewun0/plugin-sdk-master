@@ -23,7 +23,7 @@ bool CAutomobile::AddWheelDirtAndWater(CColPoint& colPoint, unsigned int arg1) {
 
 // Converted from thiscall void CAutomobile::BlowUpCarsInPath(void) 0x53E000 
 void CAutomobile::BlowUpCarsInPath() {
-    plugin::CallMethod<0x53E000, CAutomobile *>(this);
+    plugin::CallMethod<0x53E240, CAutomobile *>(this);
 }
 
 // Converted from thiscall void CAutomobile::CAutomobile(int modelIndex,uchar createdBy) 0x52C6B0
