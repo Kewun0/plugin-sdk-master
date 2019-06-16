@@ -18,5 +18,5 @@ C2deffectsModelInfo::~C2deffectsModelInfo() {
 
 // Converted from thiscall void CStore<C2dEffect,2000>::~CStore() 0x50BE30 
 EffectStore::~EffectStore() {
-    plugin::CallMethod<0x50BE30, EffectStore *>(this);
+    plugin::CallMethod<0x50BC20, EffectStore *>(this);
 }
