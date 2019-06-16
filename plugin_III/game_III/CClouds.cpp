@@ -37,7 +37,7 @@ void CClouds::RenderHorizon() {
 
 // Converted from cdecl void CClouds::Shutdown(void) 0x4F6CA0 
 void CClouds::Shutdown() {
-    plugin::Call<0x4F6CA0>();
+    plugin::Call<0x4F6D50>();
 }
 
 // Converted from cdecl void CClouds::Update(void) 0x4F6CE0 
