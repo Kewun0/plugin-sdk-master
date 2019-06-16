@@ -39,7 +39,7 @@ int CPools::GetPedRef(CPed* ped) {
 
 // Converted from cdecl CPed* CPools::GetPed(int handle) 0x4A1AA0
 CPed* CPools::GetPed(int handle) {
-    return plugin::CallAndReturn<CPed*, 0x4A1AA0, int>(handle);
+    return plugin::CallAndReturn<CPed*, 0x4A1B90, int>(handle);
 }
 
 // Converted from cdecl int CPools::GetVehicleRef(CVehicle *vehicle) 0x4A1AC0
