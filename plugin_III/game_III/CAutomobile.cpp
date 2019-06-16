@@ -38,7 +38,7 @@ void CAutomobile::DoDriveByShootings() {
 
 // Converted from thiscall void CAutomobile::FireTruckControl(void) 0x522590 
 void CAutomobile::FireTruckControl() {
-    plugin::CallMethod<0x522590, CAutomobile *>(this);
+    plugin::CallMethod<0x5227D0, CAutomobile *>(this);
 }
 
 // Converted from thiscall void CAutomobile::Fix(void) 0x53C240 
