@@ -19,7 +19,7 @@ CPool<CDummy, CDummyObject>  *&CPools::ms_pDummyPool = *(CPool<CDummy, CDummyObj
 
 // Converted from cdecl void CPools::Initialise(void) 0x4A1770
 void CPools::Initialise() {
-    plugin::Call<0x4A1770>();
+    plugin::Call<0x4A1860>();
 }
 
 // Converted from cdecl void CPools::ShutDown(void) 0x4A1880
@@ -34,7 +34,7 @@ void CPools::CheckPoolsEmpty() {
 
 // Converted from cdecl int CPools::GetPedRef(CPed *ped) 0x4A1A80
 int CPools::GetPedRef(CPed* ped) {
-    return plugin::CallAndReturn<int, 0x4A1A80, CPed*>(ped);
+    return plugin::CallAndReturn<int, 0x4A1B70, CPed*>(ped);
 }
 
 // Converted from cdecl CPed* CPools::GetPed(int handle) 0x4A1AA0
