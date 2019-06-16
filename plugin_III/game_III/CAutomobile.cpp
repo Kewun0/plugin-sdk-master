@@ -13,7 +13,7 @@ CMatrix *CAutomobile::matW2B = (CMatrix *)0x64CE54;
 
 // Converted from thiscall void CAutomobile::AddDamagedVehicleParticles(void) 0x535450 
 void CAutomobile::AddDamagedVehicleParticles() {
-    plugin::CallMethod<0x535450, CAutomobile *>(this);
+    plugin::CallMethod<0x535690, CAutomobile *>(this);
 }
 
 // Converted from thiscall bool CAutomobile::AddWheelDirtAndWater(CColPoint &colPoint,uint) 0x5357D0
