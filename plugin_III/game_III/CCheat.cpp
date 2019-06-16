@@ -63,7 +63,7 @@ void CCheat::MoneyCheat() {
 
 // Converted from cdecl void CCheat::ArmourCheat(void) 0x491460 
 void CCheat::ArmourCheat() {
-    plugin::Call<0x491460>();
+    plugin::Call<0x491520>();
 }
 
 // Converted from cdecl void CCheat::WantedLevelUpCheat(void) 0x491490 
