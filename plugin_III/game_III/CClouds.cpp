@@ -27,7 +27,7 @@ void CClouds::Render() {
 
 // Converted from cdecl void CClouds::RenderBackground(short redTop,short greenTop,short blueTop,short redBottom,short greenBottom,short blueBottom,short alpha) 0x4F7F00
 void CClouds::RenderBackground(short redTop, short greenTop, short blueTop, short redBottom, short greenBottom, short blueBottom, short alpha) {
-    plugin::Call<0x4F7F00, short, short, short, short, short, short, short>(redTop, greenTop, blueTop, redBottom, greenBottom, blueBottom, alpha);
+    plugin::Call<0x4F7FE0, short, short, short, short, short, short, short>(redTop, greenTop, blueTop, redBottom, greenBottom, blueBottom, alpha);
 }
 
 // Converted from cdecl void CClouds::RenderHorizon(void) 0x4F85F0 
