@@ -8,7 +8,7 @@
 
 // Converted from thiscall void CAudioHydrant::CAudioHydrant(void) 0x4BFE00
 CAudioHydrant::CAudioHydrant() {
-    plugin::CallMethod<0x4BFE00, CAudioHydrant *>(this);
+    plugin::CallMethod<0x4BF000, CAudioHydrant *>(this);
 }
 
 // Converted from cdecl bool CAudioHydrant::Add(CParticleObject *object) 0x4BC330
