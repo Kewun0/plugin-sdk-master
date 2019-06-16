@@ -33,12 +33,12 @@ void CCheat::ChangePlayerCheat() {
 
 // Converted from cdecl void CCheat::MayhemCheat(void) 0x4911C0 
 void CCheat::MayhemCheat() {
-    plugin::Call<0x4911C0>();
+    plugin::Call<0x491280>();
 }
 
 // Converted from cdecl void CCheat::EverybodyAttacksPlayerCheat(void) 0x491270 
 void CCheat::EverybodyAttacksPlayerCheat() {
-    plugin::Call<0x491280>();
+    plugin::Call<0x491330>();
 }
 
 // Converted from cdecl void CCheat::WeaponsForAllCheat(void) 0x491370 
