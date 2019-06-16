@@ -75,12 +75,12 @@ void CFont::SetAlphaFade(float alpha) {
 
 // Converted from cdecl void CFont::SetBackGroundOnlyTextOff(void) 0x501D40 
 void CFont::SetBackGroundOnlyTextOff() {
-    plugin::Call<0x501D40>();
+    plugin::Call<0x501E20>();
 }
 
 // Converted from cdecl void CFont::SetBackGroundOnlyTextOn(void) 0x501D30 
 void CFont::SetBackGroundOnlyTextOn() {
-    plugin::Call<0x501D30>();
+    plugin::Call<0x501E10>();
 }
 
 // Converted from cdecl void CFont::SetBackgroundColor(CRGBA color) 0x501D00 
