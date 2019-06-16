@@ -22,7 +22,7 @@ void CClouds::Init() {
 
 // Converted from cdecl void CClouds::Render(void) 0x4F6D90 
 void CClouds::Render() {
-    plugin::Call<0x4F6D90>();
+    plugin::Call<0x4F6E70>();
 }
 
 // Converted from cdecl void CClouds::RenderBackground(short redTop,short greenTop,short blueTop,short redBottom,short greenBottom,short blueBottom,short alpha) 0x4F7F00
