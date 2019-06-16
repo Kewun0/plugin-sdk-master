@@ -28,7 +28,7 @@ void CCheat::BlowUpCarsCheat() {
 
 // Converted from cdecl void CCheat::ChangePlayerCheat(void) 0x4910B0 
 void CCheat::ChangePlayerCheat() {
-    plugin::Call<0x4910B0>();
+    plugin::Call<0x491170>();
 }
 
 // Converted from cdecl void CCheat::MayhemCheat(void) 0x4911C0 
@@ -38,7 +38,7 @@ void CCheat::MayhemCheat() {
 
 // Converted from cdecl void CCheat::EverybodyAttacksPlayerCheat(void) 0x491270 
 void CCheat::EverybodyAttacksPlayerCheat() {
-    plugin::Call<0x491270>();
+    plugin::Call<0x491280>();
 }
 
 // Converted from cdecl void CCheat::WeaponsForAllCheat(void) 0x491370 
