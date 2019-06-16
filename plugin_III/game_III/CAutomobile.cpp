@@ -58,7 +58,7 @@ bool CAutomobile::HasCarStoppedBecauseOfLight() {
 
 // Converted from thiscall void CAutomobile::HideAllComps(void) 0x5300C0 
 void CAutomobile::HideAllComps() {
-    plugin::CallMethod<0x5300C0, CAutomobile *>(this);
+    plugin::CallMethod<0x530300, CAutomobile *>(this);
 }
 
 // Converted from thiscall void CAutomobile::HydraulicControl(void) 0x52D4E0 
