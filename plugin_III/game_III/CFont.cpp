@@ -65,7 +65,7 @@ void CFont::PrintString(float x, float y, const wchar_t* text) {
 
 // Converted from cdecl void CFont::PrintString(float x,float y,wchar_t *str1,wchar_t *str2,float) 0x501730
 void CFont::PrintString(float x, float y, const wchar_t* start, const wchar_t* end, float arg4) {
-    plugin::Call<0x501730, float, float, const wchar_t*, const wchar_t*, float>(x, y, start, end, arg4);
+    plugin::Call<0x501810, float, float, const wchar_t*, const wchar_t*, float>(x, y, start, end, arg4);
 }
 
 // Converted from cdecl void CFont::SetAlphaFade(float alpha) 0x501DD0
