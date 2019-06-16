@@ -48,12 +48,12 @@ void CCheat::WeaponsForAllCheat() {
 
 // Converted from cdecl void CCheat::FastTimeCheat(void) 0x4913A0 
 void CCheat::FastTimeCheat() {
-    plugin::Call<0x4914B0>();
+    plugin::Call<0x491460>();
 }
 
 // Converted from cdecl void CCheat::SlowTimeCheat(void) 0x4913F0 
 void CCheat::SlowTimeCheat() {
-    plugin::Call<0x4913F0>();
+    plugin::Call<0x4914B0>();
 }
 
 // Converted from cdecl void CCheat::MoneyCheat(void) 0x491430 
