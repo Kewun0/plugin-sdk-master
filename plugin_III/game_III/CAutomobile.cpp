@@ -63,7 +63,7 @@ void CAutomobile::HideAllComps() {
 
 // Converted from thiscall void CAutomobile::HydraulicControl(void) 0x52D4E0 
 void CAutomobile::HydraulicControl() {
-    plugin::CallMethod<0x52D4E0, CAutomobile *>(this);
+    plugin::CallMethod<0x52D720, CAutomobile *>(this);
 }
 
 // Converted from thiscall void CAutomobile::PlaceOnRoadProperly(void) 0x53E090 
