@@ -41,7 +41,7 @@ void CPed::SetPointGunAt(CEntity* entity) {
 }
 
 void CPed::ClearAimFlag() {
-    plugin::CallMethod<0x4C6A50, CPed *>(this);
+    plugin::CallMethod<0x4C6AF0, CPed *>(this);
 }
 
 void CPed::RestorePreviousState() {
