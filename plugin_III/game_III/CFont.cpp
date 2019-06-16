@@ -85,7 +85,7 @@ void CFont::SetBackGroundOnlyTextOn() {
 
 // Converted from cdecl void CFont::SetBackgroundColor(CRGBA color) 0x501D00 
 void CFont::SetBackgroundColor(CRGBA color) {
-    plugin::Call<0x501D00, CRGBA*>(&color);
+    plugin::Call<0x501DE0, CRGBA*>(&color);
 }
 
 // Converted from cdecl void CFont::SetBackgroundOff(void) 0x501CF0 
