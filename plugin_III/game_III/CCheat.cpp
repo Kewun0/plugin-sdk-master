@@ -23,7 +23,7 @@ void CCheat::TankCheat() {
 
 // Converted from cdecl void CCheat::BlowUpCarsCheat(void) 0x491040 
 void CCheat::BlowUpCarsCheat() {
-    plugin::Call<0x491040>();
+    plugin::Call<0x491100>();
 }
 
 // Converted from cdecl void CCheat::ChangePlayerCheat(void) 0x4910B0 
