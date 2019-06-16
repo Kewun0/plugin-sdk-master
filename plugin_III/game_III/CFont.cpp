@@ -60,7 +60,7 @@ void CFont::PrintChar(float x, float y, short character) {
 
 // Converted from cdecl void CFont::PrintString(float x,float y,wchar_t *text) 0x500F50
 void CFont::PrintString(float x, float y, const wchar_t* text) {
-    plugin::Call<0x500F50, float, float, const wchar_t*>(x, y, text);
+    plugin::Call<0x501030, float, float, const wchar_t*>(x, y, text);
 }
 
 // Converted from cdecl void CFont::PrintString(float x,float y,wchar_t *str1,wchar_t *str2,float) 0x501730
