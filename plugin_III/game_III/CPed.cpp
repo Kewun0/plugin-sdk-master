@@ -21,23 +21,23 @@ plugin::dummy, plugin::dummy, plugin::dummy, plugin::dummy, plugin::dummy } {
 }
 
 void CPed::SetAimFlag(CEntity* aimingTo) {
-    plugin::CallMethod<0x4C69E0, CPed *, CEntity*>(this, aimingTo);
+    plugin::CallMethod<0x4C6A80, CPed *, CEntity*>(this, aimingTo);
 }
 
 void CPed::SetAimFlag(float heading) {
-    plugin::CallMethod<0x4C6960, CPed *, float>(this, heading);
+    plugin::CallMethod<0x4C6A00, CPed *, float>(this, heading);
 }
 
 void CPed::SetAttack(CEntity* entity) {
-    plugin::CallMethod<0x4E6220, CPed *, CEntity*>(this, entity);
+    plugin::CallMethod<0x4E62D0, CPed *, CEntity*>(this, entity);
 }
 
 void CPed::SetAttackTimer(unsigned int time) {
-    plugin::CallMethod<0x4D1300, CPed *, unsigned int>(this, time);
+    plugin::CallMethod<0x4D13A0, CPed *, unsigned int>(this, time);
 }
 
 void CPed::SetPointGunAt(CEntity* entity) {
-    plugin::CallMethod<0x4E5F70, CPed *, CEntity*>(this, entity);
+    plugin::CallMethod<0x4E6020, CPed *, CEntity*>(this, entity);
 }
 
 void CPed::ClearAimFlag() {
