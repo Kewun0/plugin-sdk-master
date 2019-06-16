@@ -8,12 +8,12 @@ Do not delete this comment block. Respect others' work!
 
 // Converted from thiscall void C2deffectsModelInfo::C2deffectsModelInfo(void) 0x50BE60 
 C2deffectsModelInfo::C2deffectsModelInfo() {
-    plugin::CallMethod<0x50BE60, C2deffectsModelInfo *>(this);
+    plugin::CallMethod<0x50BF40, C2deffectsModelInfo *>(this);
 }
 
 // Converted from thiscall void C2deffectsModelInfo::~C2deffectsModelInfo() 0x50BE50 
 C2deffectsModelInfo::~C2deffectsModelInfo() {
-    plugin::CallMethod<0x50BE50, C2deffectsModelInfo *>(this);
+    plugin::CallMethod<0x50BF50, C2deffectsModelInfo *>(this);
 }
 
 // Converted from thiscall void CStore<C2dEffect,2000>::~CStore() 0x50BE30 
