@@ -15,7 +15,7 @@ char *aStr = (char *)0x64C624;
 
 // Converted from cdecl void CFont::DrawFonts(void) 0x501B50 
 void CFont::DrawFonts() {
-    plugin::Call<0x501B50>();
+    plugin::Call<0x501C30>();
 }
 
 // Converted from cdecl wchar_t* CFont::GetNextSpace(wchar_t *str) 0x501960
