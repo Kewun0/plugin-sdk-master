@@ -70,7 +70,7 @@ void CFont::PrintString(float x, float y, const wchar_t* start, const wchar_t* e
 
 // Converted from cdecl void CFont::SetAlphaFade(float alpha) 0x501DD0
 void CFont::SetAlphaFade(float alpha) {
-    plugin::Call<0x501DD0, float>(alpha);
+    plugin::Call<0x501EB0, float>(alpha);
 }
 
 // Converted from cdecl void CFont::SetBackGroundOnlyTextOff(void) 0x501D40 
