@@ -35,7 +35,7 @@ float CFont::GetStringWidth(const wchar_t* str, bool sentence) {
 
 // Converted from cdecl CRect* CFont::GetTextRect(CRect *rect_out,float x,float y,wchar_t *text) 0x5013B0
 CRect* CFont::GetTextRect(CRect* rect_out, float x, float y, const wchar_t* text) {
-    return plugin::CallAndReturn<CRect*, 0x5013B0, CRect*, float, float, const wchar_t*>(rect_out, x, y, text);
+    return plugin::CallAndReturn<CRect*, 0x501490, CRect*, float, float, const wchar_t*>(rect_out, x, y, text);
 }
 
 // Converted from cdecl void CFont::InitPerFrame(void) 0x500BE0 
