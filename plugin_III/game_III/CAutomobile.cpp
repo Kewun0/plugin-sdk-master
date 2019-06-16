@@ -68,7 +68,7 @@ void CAutomobile::HydraulicControl() {
 
 // Converted from thiscall void CAutomobile::PlaceOnRoadProperly(void) 0x53E090 
 void CAutomobile::PlaceOnRoadProperly() {
-    plugin::CallMethod<0x53E090, CAutomobile *>(this);
+    plugin::CallMethod<0x53E2D0, CAutomobile *>(this);
 }
 
 // Converted from thiscall void CAutomobile::PlayHornIfNecessary(void) 0x53C4B0 
