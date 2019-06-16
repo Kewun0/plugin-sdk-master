@@ -108,7 +108,7 @@ void CCheat::OnlyRenderWheelsCheat() {
 
 // Converted from cdecl void CCheat::ChittyChittyBangBangCheat(void) 0x491640 
 void CCheat::ChittyChittyBangBangCheat() {
-    plugin::Call<0x491640>();
+    plugin::Call<0x491700>();
 }
 
 // Converted from cdecl void CCheat::StrongGripCheat(void) 0x491670 
