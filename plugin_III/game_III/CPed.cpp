@@ -62,7 +62,7 @@ void CPed::GiveWeapon(eWeaponType weaponType, unsigned int ammo)
 }
 
 void CPed::SetCurrentWeapon(int slot) {
-    plugin::CallMethod<0x4CFA60, CPed *, int>(this, slot);
+    plugin::CallMethod<0x4CFB00, CPed *, int>(this, slot);
 }
 
 void CPed::SetObjective(eObjective objective) {
