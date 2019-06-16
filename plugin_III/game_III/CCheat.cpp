@@ -78,7 +78,7 @@ void CCheat::WantedLevelDownCheat() {
 
 // Converted from cdecl void CCheat::SunnyWeatherCheat(void) 0x491520 
 void CCheat::SunnyWeatherCheat() {
-    plugin::Call<0x491520>();
+    plugin::Call<0x4915E0>();
 }
 
 // Converted from cdecl void CCheat::CloudyWeatherCheat(void) 0x491550 
