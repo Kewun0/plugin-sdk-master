@@ -83,12 +83,12 @@ void CCheat::SunnyWeatherCheat() {
 
 // Converted from cdecl void CCheat::CloudyWeatherCheat(void) 0x491550 
 void CCheat::CloudyWeatherCheat() {
-    plugin::Call<0x491550>();
+    plugin::Call<0x491610>();
 }
 
 // Converted from cdecl void CCheat::RainyWeatherCheat(void) 0x491580 
 void CCheat::RainyWeatherCheat() {
-    plugin::Call<0x491580>();
+    plugin::Call<0x491640>();
 }
 
 // Converted from cdecl void CCheat::FoggyWeatherCheat(void) 0x4915B0 
