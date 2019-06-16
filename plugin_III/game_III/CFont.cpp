@@ -55,7 +55,7 @@ wchar_t* CFont::ParseToken(wchar_t* str) {
 
 // Converted from cdecl void CFont::PrintChar(float x,float y,short character) 0x500C30
 void CFont::PrintChar(float x, float y, short character) {
-    plugin::Call<0x500C30, float, float, short>(x, y, character);
+    plugin::Call<0x500D10, float, float, short>(x, y, character);
 }
 
 // Converted from cdecl void CFont::PrintString(float x,float y,wchar_t *text) 0x500F50
