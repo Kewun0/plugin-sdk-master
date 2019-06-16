@@ -43,7 +43,7 @@ void CAutomobile::FireTruckControl() {
 
 // Converted from thiscall void CAutomobile::Fix(void) 0x53C240 
 void CAutomobile::Fix() {
-    plugin::CallMethod<0x53C240, CAutomobile *>(this);
+    plugin::CallMethod<0x53C480, CAutomobile *>(this);
 }
 
 // Converted from thiscall bool CAutomobile::GetAllWheelsOffGround(void) 0x53BC40 
