@@ -20,7 +20,7 @@ void CFont::DrawFonts() {
 
 // Converted from cdecl wchar_t* CFont::GetNextSpace(wchar_t *str) 0x501960
 wchar_t* CFont::GetNextSpace(const wchar_t* str) {
-    return plugin::CallAndReturn<wchar_t*, 0x501960, const wchar_t*>(str);
+    return plugin::CallAndReturn<wchar_t*, 0x501A40, const wchar_t*>(str);
 }
 
 // Converted from cdecl int CFont::GetNumberLines(float x,float y,wchar_t *text) 0x501260
