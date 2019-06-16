@@ -10,7 +10,7 @@ CExplosion *gaExplosion = (CExplosion *)0x64E208;
 
 // Converted from cdecl bool CExplosion::AddExplosion(CEntity *victim,CEntity *creator,eExplosionType explosionType,CVector const&posn,uint time) 0x5591C0
 bool CExplosion::AddExplosion(CEntity* victim, CEntity* creator, eExplosionType explosionType, CVector const& posn, unsigned int time) {
-    return plugin::CallAndReturn<bool, 0x5591C0, CEntity*, CEntity*, eExplosionType, CVector const&, unsigned int>(victim, creator, explosionType, posn, time);
+    return plugin::CallAndReturn<bool, 0x5592F0, CEntity*, CEntity*, eExplosionType, CVector const&, unsigned int>(victim, creator, explosionType, posn, time);
 }
 
 // Converted from thiscall void CExplosion::CExplosion(void) 0x55ADE0
