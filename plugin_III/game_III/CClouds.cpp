@@ -4,6 +4,9 @@
     https://github.com/DK22Pac/plugin-sdk
     Do not delete this comment block. Respect others' work!
 */
+
+// 1.1 -> Completed
+
 #include "CClouds.h"
 
 RwRGBA *CClouds::ms_colourTop = (RwRGBA*)0x94143C;
