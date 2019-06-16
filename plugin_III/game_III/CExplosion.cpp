@@ -37,7 +37,7 @@ eExplosionType CExplosion::GetExplosionType(unsigned char index) {
 
 // Converted from cdecl void CExplosion::Initialise(void) 0x559030
 void CExplosion::Initialise() {
-    plugin::Call<0x559030>();
+    plugin::Call<0x559160>();
 }
 
 // Converted from cdecl void CExplosion::RemoveAllExplosionsInArea(CVector posn,float radius) 0x55AD40
