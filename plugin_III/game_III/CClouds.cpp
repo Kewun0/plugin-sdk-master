@@ -47,5 +47,5 @@ void CClouds::Update() {
 
 // Converted from cdecl bool UseDarkBackground(void) 0x4F7ED0 
 bool UseDarkBackground() {
-    return plugin::CallAndReturn<bool, 0x4F7ED0>();
+    return plugin::CallAndReturn<bool, 0x4F7FB0>();
 }
