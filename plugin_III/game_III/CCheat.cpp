@@ -13,12 +13,12 @@ void CCheat::WeaponCheat() {
 
 // Converted from cdecl void CCheat::HealthCheat(void) 0x490E70 
 void CCheat::HealthCheat() {
-    plugin::Call<0x490E70>();
+    plugin::Call<0x490F30>();
 }
 
 // Converted from cdecl void CCheat::TankCheat(void) 0x490EE0 
 void CCheat::TankCheat() {
-    plugin::Call<0x490EE0>();
+    plugin::Call<0x490FA0>();
 }
 
 // Converted from cdecl void CCheat::BlowUpCarsCheat(void) 0x491040 
