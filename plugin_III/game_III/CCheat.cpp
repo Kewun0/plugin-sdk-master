@@ -43,7 +43,7 @@ void CCheat::EverybodyAttacksPlayerCheat() {
 
 // Converted from cdecl void CCheat::WeaponsForAllCheat(void) 0x491370 
 void CCheat::WeaponsForAllCheat() {
-    plugin::Call<0x491370>();
+    plugin::Call<0x491430>();
 }
 
 // Converted from cdecl void CCheat::FastTimeCheat(void) 0x4913A0 
