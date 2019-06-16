@@ -18,7 +18,7 @@ void CAutomobile::AddDamagedVehicleParticles() {
 
 // Converted from thiscall bool CAutomobile::AddWheelDirtAndWater(CColPoint &colPoint,uint) 0x5357D0
 bool CAutomobile::AddWheelDirtAndWater(CColPoint& colPoint, unsigned int arg1) {
-    return plugin::CallMethodAndReturn<bool, 0x5357D0, CAutomobile *, CColPoint&, unsigned int>(this, colPoint, arg1);
+    return plugin::CallMethodAndReturn<bool, 0x535A10, CAutomobile *, CColPoint&, unsigned int>(this, colPoint, arg1);
 }
 
 // Converted from thiscall void CAutomobile::BlowUpCarsInPath(void) 0x53E000 
