@@ -58,7 +58,7 @@ void CCheat::SlowTimeCheat() {
 
 // Converted from cdecl void CCheat::MoneyCheat(void) 0x491430 
 void CCheat::MoneyCheat() {
-    plugin::Call<0x491430>();
+    plugin::Call<0x4914F0>();
 }
 
 // Converted from cdecl void CCheat::ArmourCheat(void) 0x491460 
